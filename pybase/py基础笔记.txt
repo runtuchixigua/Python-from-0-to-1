@@ -91,3 +91,28 @@ while i < 10:
 name = "abc"
 for x in name:
     print(x)
+11、函数
+函数定义
+    def say_yes():
+        print("yes")
+函数内对没加global变量赋值不会对全局变量产生影响
+12、数据容器
+    列表
+        stu_list1 = ['wang', 'li', 'ji']
+        stu1 = stu_list1[0]
+        print(stu1)
+        stu_list2 = [['wu', 'hong'],['wang', 'li', 'ji']]
+        stu2 = stu_list2[1][0]
+        print(stu2)
+
+    index[x]查索引 x是列表的某个值
+    insert[x]插入 x是插入的位置
+    append[x]尾部追加单个 x是追加的元素
+    extend[x]尾部追加一批 x是追加的一批元素
+    del[x]删除 x是下标
+    pop[x]同上 但是可以得到返回值
+    remove[x]删除 x是列表中的某个值 如果有多个一样的数值也只会删掉一个
+    clear()清空
+    count("x")数数 x是列表中的某个值
+    len()统计元素数量
+

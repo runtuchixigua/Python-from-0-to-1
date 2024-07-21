@@ -33,3 +33,15 @@ while i < 10:
 name = "abc"
 for x in name:
     print(x)
+
+def say_yes():
+    print("yes")
+
+say_yes()
+
+stu_list1 = ['wang', 'li', 'ji']
+stu1 = stu_list1[0]
+print(stu1)
+stu_list2 = [['wu', 'hong'],['wang', 'li', 'ji']]
+stu2 = stu_list2[1][0]
+print(stu2)
