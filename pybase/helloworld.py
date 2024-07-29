@@ -39,9 +39,13 @@ def say_yes():
 
 say_yes()
 
-stu_list1 = ['wang', 'li', 'ji']
-stu1 = stu_list1[0]
+stu_list1 = ['wang', 1, 'ji']
+stu1 = stu_list1[1]
 print(stu1)
 stu_list2 = [['wu', 'hong'],['wang', 'li', 'ji']]
 stu2 = stu_list2[1][0]
 print(stu2)
+
+t1 = (1, "hello", True)
+t2 = (1)
+print(t1)
