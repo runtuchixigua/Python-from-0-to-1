@@ -1,4 +1,13 @@
 
+class pp:
+    name = "a"
+    age = 22
+
+ppp = pp;
+print(pp.name)
+'''
+asdjflkajlkdf
+'''
 name1 = 'A'
 name2 = "A"
 name3 = """A"""
@@ -49,3 +58,5 @@ print(stu2)
 t1 = (1, "hello", True)
 t2 = (1)
 print(t1)
+
+
