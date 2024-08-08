@@ -1,0 +1,6 @@
+f = open('test.txt', 'w')
+f.write('gogogo')
+f.close()
+f = open('test.txt', 'r')
+print(f.read())
+f.close()

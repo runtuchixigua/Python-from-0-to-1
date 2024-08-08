@@ -36,9 +36,9 @@ def dm02_线性回归api_保存和加载():
     y_pred = estimator.predict([[90, 80]])
     print(y_pred)
     # 模型保存
-    joblib.dump(estimator, "./data/mymodel1.bin")
+    joblib.dump(estimator, "data/mymodel1.bin")
     # 模型加载
-    estimator2 = joblib.load("./data/mymodel1.bin")
+    estimator2 = joblib.load("data/mymodel1.bin")
     y_pred2 = estimator2.predict([[80, 70]])
     print(y_pred2)
     pass

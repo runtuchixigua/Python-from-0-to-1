@@ -47,4 +47,15 @@
 # print(id(a), id(b))
 
 
-print(15%12//5+4**2)
+# print(15%12//5+4**2)
+# list1 = [1, 2, 3, 1, 1, 2]
+# print(len(list1))
+# list2 = ' '.join(list1)
+# print(list2)
+# list1 = 'name', 'age'
+# print(list1)
+
+c1 = 'abc'
+c2 = 'def'
+c1, c2 = c2.upper(),c1.upper()
+print(c1, c2)

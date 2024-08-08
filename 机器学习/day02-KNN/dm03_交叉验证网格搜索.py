@@ -86,7 +86,7 @@ def dm01_交叉验证网格搜索():
 
     # 4-4 保存交叉验证结果
     myret = pd.DataFrame(estimator.cv_results_)
-    myret.to_csv(path_or_buf='./mygridsearchcv.csv')
+    myret.to_csv(path_or_buf='mygridsearchcv.csv')
     # 5 模型评估
     score = estimator.score(x_test, y_test)
     print('score--', score)

@@ -78,3 +78,27 @@ i = 1
 # print(sum)
 
 
+str1 = 'asdfkjal'
+print(str1[1] + str1[-1])
+print(str1 * 2)
+
+print('pythonpython'.split('to'))
+
+a = 30.0
+print(str(a))
+
+numstr1 = '0123456789'
+print(numstr1[::2])
+
+str = '秋江楚燕属沙洲'
+print(str[3:7])
+
+str = 'hello world'
+print(str[-4:-1])
+
+list1 = [9, 1, 2, 3, 4, 5, 6, 7, 8]
+list1.sort()
+print(list1)
+
+print(str[-4:-1])
+
