@@ -57,5 +57,13 @@
 
 c1 = 'abc'
 c2 = 'def'
-c1, c2 = c2.upper(),c1.upper()
+c1, c2 = c2.upper(), c1.upper()
 print(c1, c2)
+
+x = lambda x, y: x + y
+print(x(1, 2))
+
+list1 = [1, 2, 3]
+set1 = {'a': 1, 'b': 2, 'c': 3}
+y = lambda *a, **b: print(a, b)
+y(list1, set1)

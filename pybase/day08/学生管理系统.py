@@ -19,7 +19,7 @@ def add_info():
     age = input('请输入年龄:')
     mobile = input('请输入电话:')
 
-    global info
+    # global info
 
     for i in info:
         if i['name'] == name:
@@ -35,7 +35,7 @@ def add_info():
 
 def del_info():
     name = input('输入要删除学员的姓名:')
-    global info
+    # global info
     for i in info:
         if i['name'] == name:
             del info[info.index(i)]
@@ -48,7 +48,7 @@ def del_info():
 
 def change_info():
     name = input('输入要修改学员的姓名:')
-    global info
+    # global info
     for i in info:
         if i['name'] == name:
             new_name = input('输入新名字:')
@@ -65,7 +65,7 @@ def change_info():
 
 
 def show_info(name):
-    global info
+    # global info
     for i in info:
         if i['name'] == name:
             print(f'名字:{i["name"]} 年龄:{i["age"]} 电话:{i["mobile"]}')
@@ -75,7 +75,7 @@ def show_info(name):
 
 
 def show_all():
-    global info
+    # global info
     for i in info:
         print(f'名字:{i["name"]} 年龄:{i["age"]} 电话:{i["mobile"]}')
 

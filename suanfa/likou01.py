@@ -42,3 +42,7 @@ print(twoSum(nums, target))
 nums1 = [3, 3]
 target2 = 6
 print(twoSum(nums1, target2))
+
+
+
+

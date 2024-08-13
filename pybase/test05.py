@@ -40,8 +40,22 @@ a = 0
 #
 # print(a)
 
-from suanfa import Solution
+# from suanfa import Solution
+#
+# s = Solution()
+# a = s.sumtwo(1, 2)
+# print(a)
 
-s = Solution()
-a = s.sumtwo(1, 2)
-print(a)
+# list1 = [1,2,3]
+# def fuc():
+#     list1.append(4)
+#
+#
+# if __name__ == '__main__':
+#     fuc()
+#     print(list1)
+
+
+a, b = 0, 30
+print(a and b)
+print(a or b)
